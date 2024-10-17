@@ -1,0 +1,132 @@
+
+
+
+
+
+
+          There was a program for the Atari XL that divided the screen
+          up into row with a little line between them. I remember the
+          rows being red and the lines being white. You can then type
+          text into the rows - 40 columns across and 24 rows down. The
+          overall effect was of an on-screen index card. When I first
+          used this program back in the eighties I really liked the
+          effect and though often about how I could implement
+          something similar in Atari BASIC given my skill level at the
+          time. I have though about this program a lot over the years,
+          facinated it seems by its display, how it could be used, and
+          how it could be re-implemented.
+
+          Sometime is 2023, I was delighted when I stumbled upon this
+          program again but soon after, a project at work consumed my
+          life and did not let up until October 2024. So now that I
+          had a little extra time I thought I would play around with
+          the program some more. But foolish me did not record were I
+          found it. Now obsessed with this program I was in for a big
+          dig. I thought it might be on an Antic magazine disk, but
+          after searching through 111 disks - no luck. Searching the
+          internet was not help. Apparently this program did not have
+          much of a following. After almost giving up I found it! It
+          was on the second disk for Analog magazone for August 1984,
+          Issue 21. The filename was CARDFILE.BAS and the name of the
+          program was "ANALOG CARD FILE". The screen colors were
+          different - more of a purple with black line but there was
+          no doubt it was the program I had been looking for.
+
+          With program in hand I want to see if I can use it develop a
+          card file of digital cards. I want to be able to use an
+          Atari Emulator to create the cards, but also want a way to
+          export them off of emulated disks and on to modern storage.
+          The Analog Card File offers two ways of storing the contents
+          of a card: it can save them to disk or print them.
+
+          The save feature is slow so I need to wait a few seconds to
+          make sure the save is completed. Unfortunately, I think the
+          program does a byte for byte copy of the computer screen
+          memory to disk. So when I copy the saved file to a modern
+          file system it looks like a bunch of random characters, far
+          worse then a simple ATASCII to ASCII conversion issue. I
+          also confirmed this by using Atari DOS to copy the file to
+          the screen and saw the same output. So then to use the saved
+          files I would need to create a file converter. This might
+          not be too hard to implement - might look into that as a
+          "rainy day" project.
+
+          The Atari800MacX emulator that I am using has a printer
+          emulation feature. I can use that to print out PDF versions
+          of the cards but to get them into text format I have open
+          the PDF in Preview then copy the text to a text edit like
+          BBEdit and then save the file from that program. It works
+          but is slow and manual.
+
+
+
+
+
+
+
+
+
+
+
+
+
+          I'm not sure what I am going to do. I could write the
+          converter program, or go with the manual PDF to text
+          process, or abandon the program and move on. One other
+          option I have is to re-write the program to save the files
+          in text format, rather than as a memory dump. Since it is a
+          basic program, I have the source code. I also have the
+          magazine article for the program as well. What happens next?
+          Only time will tell.
+
+          (c) Copyright 2024
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
